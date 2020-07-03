@@ -1,0 +1,20 @@
+{
+	"generar tabla ": {
+		"prefix": "e-table",
+		"body": [
+			"<data-table ",
+			"[title]='title$1'",
+			"[columns]='columnas$1'",
+			"[data]='data$1'",
+			"[configuration]='configuration$1'",
+			"[reloadTable]='recargarTabla$1'",
+			"(add)='agregar$1($event)'",
+			"(edit)='editar$1($event)'",
+			"(delete)='eliminar$1($event)'",
+			"(selection)='seleccionados$1($event)'",
+			"(clickRow)='clickFila$1($event)'",
+			"></data-table>"
+		],
+		"description": "codigo basico de generacion de tabla eter ui"
+	}
+}

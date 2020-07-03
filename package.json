@@ -1,0 +1,27 @@
+{
+    "name": "eter-ui-snippets",
+    "displayName": "eter-ui-snippets",
+    "description": "snippets eter ui angular module",
+    "version": "0.0.1",
+    "publisher": "felipemantilla01",
+    "icon": "images/icon.png",
+    "repository": "https://github.com/Felipemantilla01/eter-ui-snippets",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.json"
+            }
+        ]
+    }
+}
